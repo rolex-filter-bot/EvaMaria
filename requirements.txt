@@ -1,4 +1,4 @@
-git+https://github.com/rolex-filter-bot/EvaMaria
+git+https://github.com/cinemagoer/cinemagoer
 pyrogram
 tgcrypto
 pymongo[srv]
