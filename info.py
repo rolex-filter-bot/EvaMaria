@@ -32,7 +32,7 @@ AUTH_CHANNEL = environ.get('AUTH_CHANNEL')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cluster77.mgtl0.mongodb.net/" --apiVersion 1 --username rlx10")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rlx10:rlx100@cluster77.mgtl0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster77")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster77")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
